@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%)
+}
+
+header img {
+    width: 100%;
+}
+
+main {
+    background-color: white;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 8.5%;
+}
+
+div h1 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+div p {
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+}
+
+.Preparation-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8%;
+}
+
+.Preparation-time h3 {
+    font-family: 'Outfit';
+    color: hsl(332, 51%, 32%);
+    padding-right: 35%;
+    margin: 4%;
+}
+
+span {
+    font-family: "Outfit";
+    font-weight: 600;
+}
+
+.Preparation-time p {
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 160%;
+    padding-right: 20%;
+}
+
+.Preparation-time li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.ingredients h2 {
+    padding-right: 70%;
+    padding-bottom: 5%;
+    font-weight: 400;
+    font-family: 'Young Serif';
+    color: hsl(14, 45%, 36%);
+
+}
+
+.ingredients p {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 160%;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+li {
+    padding-left: 4%;
+}
+
+hr {
+    margin: 5%;
+    border: none;
+    height: 0.5px;
+    background-color: hsl(30, 18%, 87%);
+}
+
+.Instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+.Instructions h2 {
+    padding-bottom: 5%;
+    padding-right: 70%;
+    font-weight: 400;
+    font-family: 'Young Serif';
+    color: hsl(14, 45%, 36%);
+}
+
+.Instructions p {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 140%;
+}
+
+.Instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.Nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+.Nutrition h2 {
+    padding-bottom: 5%;
+    padding-right: 70%;
+    font-weight: 400;
+    font-family: 'Young Serif';
+    color: hsl(14, 45%, 36%);
+}
+
+.Nutrition p {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 140%;
+}
+
+.Nutrition table {
+    margin-top: 5%;
+    width: 100%;
+    font-family: 'Outfit';
+    border-spacing: 0;
+}
+
+.Nutrition table td {
+    padding: 10px 10%;
+    color: hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.Nutrition table td.details {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+@media (min-width: 1000px) {
+    header {
+        width: 500px;
+        padding: 5%;
+    }
+
+    header img {
+        border-radius: 10px;
+
+    }
+
+    div {
+        margin: 0%;
+    }
+
+    div h1 {
+        padding-right: 34%;
+        font-size: 25px;
+        padding-top: 3%;
+    }
+
+    div p {
+        font-size: 11px;
+    }
+
+    .Preparation-time {
+        margin: 0%;
+    }
+
+    .Preparation-time h3 {
+        font-size: 15px;
+        padding-right: 50%;
+        margin: 4%;
+    }
+
+    .Preparation-time ul {
+        padding-right: 35%;
+
+    }
+
+    .Preparation-time p {
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .Preparation-time ul li::marker {
+        font-size: 10px;
+    }
+
+    .ingredients {
+        margin: 5%;
+    }
+
+    .ingredients h2 {
+        font-size: 20px;
+        padding-bottom: 2%;
+    }
+
+    .ingredients p {
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .ingredients ul {
+        padding-right: 19%;
+    }
+
+    .ingredients ul li::marker {
+        font-size: 10px;
+    }
+
+    .Instructions {
+        margin: 5%;
+    }
+
+    .Instructions h2 {
+        font-size: 20px;
+        padding-bottom: 2%;
+    }
+
+    .Instructions p {
+        font-size: 11px;
+    }
+
+    .Instructions ol li::marker {
+        font-size: 10px;
+    }
+
+    .Instructions ol {
+        padding-left: 4%;
+    }
+
+    .Nutrition {
+        margin: 5%;
+    }
+
+    .Nutrition h2 {
+        font-size: 20px;
+        padding-bottom: 2%;
+    }
+
+    .Nutrition p {
+        font-size: 11px;
+    }
+
+    .Nutrition table {
+        margin-top: 1%;
+        width: 100%;
+        font-family: 'Outfit';
+        border-spacing: 0;
+    }
+
+    .Nutrition table td {
+        font-size: 11px;
+        padding: 10px 10%;
+        color: hsl(30, 10%, 34%);
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    .Nutrition table td.details {
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    li {
+        padding-left: 1%;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+
+        border-radius: 10px;
+        max-width: 500px;
+    }
+}
