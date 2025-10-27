@@ -172,7 +172,7 @@ hr {
     font-weight: 700;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 920px) {
     header {
         width: 500px;
         padding: 5%;
@@ -312,4 +312,5 @@ hr {
         border-radius: 10px;
         max-width: 500px;
     }
+
 }
